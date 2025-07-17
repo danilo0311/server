@@ -31,6 +31,18 @@ body {
 	}
 }
 
+.description-text-big {
+	font-weight: 300;
+	text-align: center;
+	margin-left: 0.2rem;
+	max-width: 20rem;
+	font-size: 1.75rem;
+	@media screen and (max-width: 740px) {
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
 .yellow-wrapper {
 	background-color: #f6ff72;
 	display: flex;
@@ -68,3 +80,13 @@ body {
 	font-size: 1.25rem;
 	margin-left: 0.2rem;
 }
+
+.status-code-big {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-right: 0.5rem;
+	font-weight: 300;
+	font-size: 4.25rem;
+	margin-left: 0.2rem;
+}
+
